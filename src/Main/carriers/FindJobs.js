@@ -78,7 +78,7 @@ function FindJobs() {
                 }else if(searchProp === "dept" && (val.department.toLowerCase().includes(searchTerm.toLowerCase()))){
                   return val
                 }
-                return (<> </>);
+                
               }).map((val, key) => {
                 return (
                   <div className="col-sm-3 gy-3" key = {key}>
