@@ -93,7 +93,7 @@ class Contact extends Component {
                     onClick={() => window.open("/#", "_self")}
                     className="btn-main lead m-auto my-5"
                   >
-                    equest A Demo
+                    Request A Demo
                   </div>
                 </div>
               </div>

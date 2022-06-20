@@ -95,8 +95,8 @@ class Carrier extends Component {
                     <GlobalStyles />
 
                     <div
-                        className="container"
-                        style={{ minHeight: "60vh", marginTop: "155px" }}
+                        className="container my-5"
+                        
                     >
                         <div id="tabs1">
                             <Tabs fill defaultActiveKey="Find_jobs">

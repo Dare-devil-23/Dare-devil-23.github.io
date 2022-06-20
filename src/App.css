@@ -56,15 +56,18 @@
   font-family: myFont;
   src: url(/src/font/Thermal-Regular.ttf);
 }
+.our-services{
+  display: inline-block;
+}
 /* glow  */
 body {
   margin: 0;
   font-family:myFont;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-shadow: 0 0 10px #00ccff; 
+  /* text-shadow: 0 0 10px #00ccff;  */
 }
-.heroMob{
+/* .heroMob{
   text-shadow: 0 0 10px #00ac25; 
 }
 .white{
@@ -72,7 +75,7 @@ body {
 }
 .glowblack{
   text-shadow: none; 
-}
+} */
 .hero{
   font-size: 20px;
   font-size: larger;
@@ -80,6 +83,11 @@ body {
 
 a{
   text-decoration: none;
+  color: rgb(231, 227, 227);
+}
+a:hover{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
 .App-header {
   background-color:#000000; 
@@ -96,7 +104,7 @@ a{
   background-color:#000000; 
   padding-top: 8%;
   /* min-height: 300vh; */
-display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -326,6 +334,24 @@ color:white;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
+  }
+  .section2{
+    justify-content: center;
+    display: absolute;
+  
+  }
+  .section1{
+    max-height: 1000px ;
+    display: absolute;
+    max-height: 1200px;
+  }
+  .heroMob{
+    display: absolute;
+    
+  }
+  .sections{
+    display: absolute;
+    
   }
 }
 .offertext a:hover{

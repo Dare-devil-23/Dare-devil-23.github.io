@@ -39,6 +39,7 @@ import Carrier from '../Main/Carrier';
 import Jobdetails from '../Main/Jobdetails';
 import Contact from '../Main/Contact';
 import Training from '../Main/Training';
+import ComingSoon from '../Main/components/ComingSoon';
 
 
 
@@ -76,7 +77,7 @@ const app= () => (
         <Home exact path="/">
           <Redirect to="/home" />
         </Home>
-
+        <ComingSoon path="/comingsoon"/>
         <Training path="/training" />
         <Product path="/product" />
         <Carrier path="/carrier" />

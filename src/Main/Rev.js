@@ -30,8 +30,8 @@ class Rev extends Component {
           >
             <RandomReveal
               isPlaying
-              duration={0.5}
-              revealDuration={1}
+              duration={1}
+              revealDuration={0.5}
               characters={this.state.data}
             />
           </span>
