@@ -298,7 +298,7 @@ color:white;
   
   /* bottom: 0; */
   /* background-color: #00071a; */
-  background-image: url(./assets/globe.gif);
+  /* background-image: url(./assets/globe.gif); */
   transform: scale(1,1) translateZ(1px);
   box-shadow: 0px 8px 15px black inset; 
   width: 100%;
