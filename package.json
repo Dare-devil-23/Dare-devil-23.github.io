@@ -1,8 +1,8 @@
 {
   "name": "gigaland",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "engines": {
-    "node": "17.x"
+    "node": "16.x"
   },
   "private": true,
   "homepage": "http://cyberinfoinc.com/",
