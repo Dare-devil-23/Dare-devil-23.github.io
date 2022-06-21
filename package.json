@@ -2,7 +2,7 @@
   "name": "gigaland",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://cyberinfoinc.com/",
+  "homepage": "http://cyberinfoinc.github.com/",
   "dependencies": {
     "@reach/router": "^1.3.4",
     "@tim-soft/react-spring-web": "^9.0.0-beta.36",
@@ -45,6 +45,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -69,6 +71,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "sass": "^1.52.3"
   }
 }
