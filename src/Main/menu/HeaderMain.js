@@ -64,7 +64,7 @@ const HeaderMain = () => {
         </button>
         <div className="dropdown-content">
           {data.map(product => 
-            <Link key={product.id} to = "/comingsoon" className='drop-item'> {product.lable}</Link>
+            <Link key={product.id} to = "/comingsoon" className='drop-item'> <Rev data={product.lable}/></Link>
           )}
         </div>
       </div>
