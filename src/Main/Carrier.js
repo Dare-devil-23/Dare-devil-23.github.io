@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React ,{ Component } from "react";
 import { createGlobalStyle } from "styled-components";
 import HeaderSmall from "./menu/HeaderSmall";
 import HeaderMain from "./menu/HeaderMain";

@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React ,{ Component } from "react";
 // import Footer from "../components/components/footer";
 // import { Tabs, Tab } from "react-bootstrap";
 import HeaderSmall from "./menu/HeaderSmall";

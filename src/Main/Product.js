@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React ,{ Component } from "react";
 // import Header from "../components/menu/header";
 // import { createGlobalStyle } from "styled-components";
 import Footer from "./components/footer";

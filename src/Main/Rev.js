@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React ,{ Component } from "react";
 import { RandomReveal } from "react-random-reveal";
 
 class Rev extends Component {
